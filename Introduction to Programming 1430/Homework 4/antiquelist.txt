@@ -1,0 +1,10 @@
+Painting,150.10,10
+Lamp,100.20,10
+Rug,200.00,10
+Clock,100.00,10
+Sculpture,300.00,10
+Photograph,200.00,10
+Pottery,100.00,10
+Watch,300.00,10
+Wedgwood,70.00,10
+Tiles,500.00,10

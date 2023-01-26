@@ -1,0 +1,27 @@
+Barbarian
+Bob
+Orc
+12
+90
+50
+Club
+24
+10
+
+Mage
+Gandalf
+Human
+10
+100
+60
+3
+Fireball
+25
+10
+Water Slice
+20
+6
+Earthquake
+26
+11
+

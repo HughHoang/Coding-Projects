@@ -1,0 +1,17 @@
+﻿  hw.cpp
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(27,37): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(54,32): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(54,65): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(93,20): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(103,35): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(103,68): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(183,39): warning C4099: 'node': type name first seen using 'class' now seen using 'struct'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(17): message : see declaration of 'node'
+C:\Users\UtHoa\source\repos\hw\hw\hw.cpp(252,27): warning C4018: '<': signed/unsigned mismatch
+  hw.vcxproj -> C:\Users\UtHoa\source\repos\hw\Debug\hw.exe

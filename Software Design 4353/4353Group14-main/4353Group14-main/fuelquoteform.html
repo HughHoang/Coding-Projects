@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Fuel Quote Form </title>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <p id="demo"></p>
+    <h1>Fuel Quote Form</h1>
+    <div>
+        <ul>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="profilemanagement.php">Profile Management</a></li>
+            <li><a href="fuelquote.php">Fuel Quote Form</a></li>
+            <li><a href="fuelquoteshistory.php">Fuel Quote History</a></li>
+            <li style="float:right"><a class="out" href="logout.php">Logout</a></li>
+        </ul>
+    </div>
+    <form method="POST" action="fuelquote.php" enctype="multipart/form-data">
+        <div><label for="requested">Gallons Requested:</label>
+            <input type="number" id="requested" name="requested" required></div>
+
+        <div><label for="add">Delivery Address:</label>
+            <input type="text" id="address1" name="address1" required></div>
+
+        <div><label for="delliverydate">Delivery Date:</label>
+            <input type="date" id="delliverydate" name="delliverydate" value="2018-07-22" min="2018-01-01" max="2021-12-31"></div>
+
+
+        <div>
+            <p>Suggested Price / gallon:</p>
+        </div>
+        <div>
+            <p>Total Amount Due: </p>
+        </div>
+
+        <div><input type="submit" class="button" name="butfuelsubmit" value="Submit"></div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="command51.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command52.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command53.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans51.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans52.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="ans53.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input53.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input51.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input52.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="output1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans59.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans51.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans52.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans53.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans54.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans55.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans56.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans57.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\ans58.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input59.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input54.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input55.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input56.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input57.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="input58.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command54.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command55.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command56.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command57.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command58.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="command59.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test5.sh">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArgumentManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

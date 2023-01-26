@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /**\
+ * Definition for a binary tree node.\
+ * struct TreeNode \{\
+ *     int val;\
+ *     TreeNode *left;\
+ *     TreeNode *right;\
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) \{\}\
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) \{\}\
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) \{\}\
+ * \};\
+ */\
+class Solution \{\
+public:\
+    vector<int> rightSideView(TreeNode* root)\
+    \{\
+        vector<int> visable;\
+        \
+        if (root == nullptr)\
+        \{\
+            return visable;\
+        \}\
+        \
+        queue<TreeNode*> q;\
+        q.push(root);\
+        \
+        while (!q.empty())\
+        \{\
+            int size = q.size();\
+            for (int i = 0; i < size; i++)\
+            \{\
+                TreeNode* current = q.front();\
+                q.pop();\
+                \
+                if (i == size - 1)\
+                \{\
+                    visable.push_back(current->val);\
+                \}\
+                \
+                if (current->left)\
+                \{\
+                    q.push(current->left);\
+                \}\
+                \
+                if (current->right)\
+                \{\
+                    q.push(current->right);\
+                \}\
+            \}\
+        \}\
+        \
+        return visable;\
+    \}\
+\};}

@@ -1,0 +1,36 @@
+﻿  antique.cpp
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10,15): error C2011: 'Antique': 'class' type redefinition
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20,10): error C2027: use of undefined type 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(21,5): error C2065: 'name': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(22,5): error C2065: 'price': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(23,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(24,15): error C2027: use of undefined type 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(25,5): error C2065: 'name': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(26,5): error C2065: 'price': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(28,15): error C2027: use of undefined type 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(29,5): error C2065: 'name': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(30,5): error C2065: 'price': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,10): error C2027: use of undefined type 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,20): error C2084: function 'int {ctor}(void)' already has a body
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20): message : see previous definition of '{ctor}'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(33,5): error C2065: 'name': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(34,5): error C2065: 'price': undeclared identifier
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(36,17): error C2027: use of undefined type 'Antique'
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(10): message : see declaration of 'Antique'
+  main.cpp
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\UtHoa\source\repos\C++\C++\main.cpp(34,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  merchant.cpp
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(20,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\UtHoa\source\repos\C++\C++\antique.cpp(32,20): error C2600: 'Antique::Antique': cannot define a compiler-generated special member function (must be declared in the class first)
+  Generating Code...
