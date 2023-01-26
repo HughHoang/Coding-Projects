@@ -1,0 +1,21 @@
+PK   Y
+1NF  Y
+2NF  N
+3NF  N
+BCNF N
+PK   Y
+1NF  Y
+2NF  N
+3NF  N
+BCNF N
+PK   Y
+1NF  Y
+2NF  N
+3NF  N
+BCNF N
+hw2_1nf_invalidpkk1k2
+PK   Y
+1NF  Y
+2NF  N
+3NF  N
+BCNF N

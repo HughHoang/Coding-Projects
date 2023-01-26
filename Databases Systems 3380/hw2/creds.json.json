@@ -1,0 +1,7 @@
+{
+  "host": "/var/run/postgresql",
+  "user": "dbs043",
+  "password": "1833106H",
+  "port": 5432,
+  "database": "COSC3380"
+}
