@@ -1,0 +1,1 @@
+g++ evenoddreverseorder.cpp -pthread -o evenoddreverseorder
