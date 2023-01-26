@@ -1,0 +1,55 @@
+Server: 3380.cs.uh.edu
+Port: 22
+Username: dbs043
+Password: 1833106H
+dbs043
+dbs043@3380.cs.uh.edu
+
+select * FROM Crew
+
+cd hw1
+psql -d COSC3380
+SET SCHEMA 'airline';
+\i q11.sql
+UPDATE Crew SET role= 'Copilot' WHERE role = 'CoPilot';
+\i assign_clean_shift.sql
+\i assign_maintenance_shift.sql
+\i assign_refuel_shift.sql
+\i baggage_manager.sql
+\i new_flight_transactions.sql
+\i record_arrival.sql
+\i record_departure.sql
+\i ticket_checkin.sql
+psql -d COSC3380
+\i create_tables_normalized.sql
+\i insert_values.sql
+cat > create_tables_normalized.sql
+cat create_tables_normalized.sql
+clear file
+> create_tables_normalized.txt
+
+> insert_values.txt
+cat > insert_values.txt
+
+./a.out
+ls
+cd hw0
+ls
+g++ *.cpp -o array
+chmod ++x test0.sh
+./test0.sh
+
+g++ main.cpp -pthread -o main
+./main < input1.txt 
+g++ client.cpp -pthread -o client
+./client localhost 1255 < input1.txt 
+
+./array input=input01.txt output=output01.txt
+
+g++ -std=c++11 *.cpp -o name
+
+./name input="input01.txt"
+
+cat input01.txt
+
+01 10 12 21 23 31 32
